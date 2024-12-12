@@ -11,7 +11,7 @@ const IframeDinamic = () => {
   return (
 
     <div className="w-full">
-        <h1 className="text-2xl text-center mb-4 uppercase">Iframe Test</h1>
+        <h1 className="text-2xl text-center mb-4 uppercase">Iframe Test </h1>
         <Card className="max-w-md mx-auto">
             <CardBody className="flex justify-between gap-4 items-center">
             <Input placeholder="ingrese el iframe" value={iframe} onChange={e => setIframe(e.target.value)}/>
